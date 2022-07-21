@@ -1,0 +1,43 @@
+
+.mainbody {
+    background-color: rgb(68, 66, 66);
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    align-items: center;
+    
+}
+
+h1, p, h2 {
+    color: white;
+}
+
+ul{
+    list-style-type:none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card_main {
+    height: 150px;
+    width: 400px;
+    margin: 25px;
+    align-items: center;
+    background-color: rgb(116, 116, 209);
+}
+
+.card_name{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card_name span {
+    font-size: 15px;
+}
+
+.card_total {
+    font-size: 20px;
+    font-weight: bold;
+
+}
